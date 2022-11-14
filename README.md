@@ -30,3 +30,5 @@ I first perform this task within Python by connecting to SQL and using functions
 
 Following the advice of my colleagues, I directly the DB within Python by using the code below: 
 ![](images/MySQL%20code%20to%20load%20data.png)
+
+1.  Sentiment Analysis and other graphs 
