@@ -41,18 +41,29 @@ Then I had to prepare my DF for the NLP analysis. I did this in 4 steps:
     d. Rejoin words 
 
 With these steps being done, I created a WordCloud. 
+![](https://github.com/RaphHer/Project_4_Sentiment-Analysis-API/blob/main/images/1%20wordcloud%20.png?raw=true)
 
-![Alt text](../../../../../../../C:/Users/rapha/OneDrive/ironhack/projects/Project_4_Sentiment-Analysis-API/images/1%20wordcloud%20.png)
 
-However, as you can see, many words need to be more relevant. Words like "sir, don't, well " have no value. Therefore I decided to have a minimum word length of letters. And here is the result: 
-![Alt text](../../../../../../../C:/Users/rapha/OneDrive/ironhack/projects/Project_4_Sentiment-Analysis-API/images/2%20wordcloud%20.png)
+However, as you can see, many words need to be more relevant. Words like "sir, don't, well " have no value. Therefore I decided to have a minimum word length of letters. And here is the result:
+
+![](https://github.com/RaphHer/Project_4_Sentiment-Analysis-API/blob/main/images/2%20wordcloud%20.png?raw=true)
+
 
 Finally, I ran multiple NLTK analyses and was able to plot the following analysis. 
 
-![Alt text](../../../../../../../C:/Users/rapha/OneDrive/ironhack/projects/Project_4_Sentiment-Analysis-API/images/Sentiment%20Analysis%20.png)
+![](https://github.com/RaphHer/Project_4_Sentiment-Analysis-API/blob/main/images/Sentiment%20Analysis%20.png?raw=true)
 
-Following this step, I thought I was done and was listening to this song (https://www.youtube.com/watch?v=fHI8X4OXluQ)
 
-However, I was still done yet, and this song is more appropriate: (https://www.youtube.com/watch?v=pt8VYOfr8To)
+Following this step, I thought I was done and was listening to this [song][1]
+
+However, I was still not done yet, and this [song][2] is more appropriate 
 
 4. Creating an API and making some queries 
+
+
+
+
+
+
+[1]: https://www.youtube.com/watch?v=fHI8X4OXluQ 'song'
+[2]: https://www.youtube.com/watch?v=pt8VYOfr8To 'song'
