@@ -31,4 +31,28 @@ I first perform this task within Python by connecting to SQL and using functions
 Following the advice of my colleagues, I directly the DB within Python by using the code below: 
 ![](images/MySQL%20code%20to%20load%20data.png)
 
-1.  Sentiment Analysis and other graphs 
+3. Sentiment Analysis and other graphs 
+I was supposed to perform sentiment analysis in this part quickly, and it went from an easy task to a long marathon. First, after some hours of work on this, I had to create a new environment, as the spicy environment did not want to upload anymore. 
+
+Then I had to prepare my DF for the NLP analysis. I did this in 4 steps:
+    a. Tokenize 
+    b. Stopword removal 
+    c. Stemming 
+    d. Rejoin words 
+
+With these steps being done, I created a WordCloud. 
+
+![Alt text](../../../../../../../C:/Users/rapha/OneDrive/ironhack/projects/Project_4_Sentiment-Analysis-API/images/1%20wordcloud%20.png)
+
+However, as you can see, many words need to be more relevant. Words like "sir, don't, well " have no value. Therefore I decided to have a minimum word length of letters. And here is the result: 
+![Alt text](../../../../../../../C:/Users/rapha/OneDrive/ironhack/projects/Project_4_Sentiment-Analysis-API/images/2%20wordcloud%20.png)
+
+Finally, I ran multiple NLTK analyses and was able to plot the following analysis. 
+
+![Alt text](../../../../../../../C:/Users/rapha/OneDrive/ironhack/projects/Project_4_Sentiment-Analysis-API/images/Sentiment%20Analysis%20.png)
+
+Following this step, I thought I was done and was listening to this song (https://www.youtube.com/watch?v=fHI8X4OXluQ)
+
+However, I was still done yet, and this song is more appropriate: (https://www.youtube.com/watch?v=pt8VYOfr8To)
+
+4. Creating an API and making some queries 
